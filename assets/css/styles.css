@@ -7,7 +7,13 @@
     color: #FFF;
 }
 p{
-    font-size: 18px;
+    font-size: 14px;
+}
+footer{
+    font-size: 10px;
+    color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
 }
 body{
     background: #000;
@@ -70,14 +76,12 @@ strong{
 }
 .sobre{
 background-image: url("../img/sobre.jpg");
-background-position: left;
-background-size: auto;
+background-position: center;
+background-size: cover;
 }
 .about{
     justify-content: center;
     align-content: center;
-    margin:0 0 0 78%;
-    padding-left: 5%;
 }
 .bottom{
     position: absolute;
@@ -104,4 +108,13 @@ background-size: auto;
     .social{
         display: none;
     }
+    .sobre{
+        background:#000;
+    }
+    .about{
+        justify-content: center;
+        align-content: center;
+        margin:15% 2% 0 2%;
+        padding-left: 0%;
+        }
 }
