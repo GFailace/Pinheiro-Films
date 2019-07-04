@@ -5,6 +5,11 @@ $(document).ready(function () {
 });
 
 $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    duration: 500
+    fullWidth: false,
+    duration: 200,
+    indicators: true
+  });
+
+  $(document).ready(function(){
+    $('.slider').slider();
   });
