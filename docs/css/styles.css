@@ -1,3 +1,6 @@
+video{
+  margin-bottom: 25px;
+}
 .tim-row {
   margin-bottom: 20px;
 }
@@ -862,4 +865,16 @@
 
 .flash {
   animation-name: flash;
+}
+.navbar-brand{
+  padding-bottom:40px; 
+}
+
+@media(max-width:992px){
+  .right{
+    position: absolute;
+    right: 0;
+    width: auto;
+    margin: 0 auto;
+  }
 }
